@@ -1,4 +1,4 @@
-baseurl = "northwestdatanitiative.github.io"
+baseurl = "http://northwestdatanitiative.github.io/public"
 title = "Universal"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
