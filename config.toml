@@ -1,0 +1,45 @@
+baseurl = "/"
+title = "INDI"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "Mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author]
+  name = "INDI"
+  bio = "We are a group of analysts, data scientists, researchers, and professors interested in using data to solve problems. "
+  avatar = "img/avatar.png"
+
+[Params]
+  subtitle = "Inland Northwest Data Initiative" # Subtitle of your site
+  description = "Focusing on data and analysis in the Inland Northwest " # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false
+  post_navigation = true
+  post_meta = ["date", "categories"] # Order of post meta information
+  
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+  
+  [Params.widgets.social]
+  # Enable parts of social widget
+  #facebook = ""
+  twitter = ""
+  #instagram = "username"
+  #linkedin = ""
+  #telegram = ""
+  github = "patilv"
+  #gitlab = "username"
+  #bitbucket = "username"
+  email = "patilv@gmail.com"
