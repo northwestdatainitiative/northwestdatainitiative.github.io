@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://northwestdatainitiative.github.io"
 title = "INDI"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
